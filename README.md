@@ -1,4 +1,4 @@
-# Lab Automation — Catalysis Reactor Control
+# Lab Automation Catalysis Reactor Control
 
 Python scripts for automated control of a catalysis reactor rig using:
 - **Watlow EZ-Zone** temperature controller (RS-422/485 serial, BACnet MS/TP protocol)
