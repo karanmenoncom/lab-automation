@@ -1,5 +1,7 @@
 # Lab Automation Catalysis Reactor Control
 
+**Disclaimer:** This project is not affiliated with or endorsed by Watlow Electric Manufacturing Company, Harrick Scientific Products, Inc., Specac Ltd or Brooks Instrument. All product names are trademarks of their respective owners.
+
 Python scripts for automated control of a catalysis reactor rig using:
 - **Watlow EZ-Zone** temperature controller (RS-422/485 serial, BACnet MS/TP protocol)
 - **Brooks Instrument 0250 Series** Mass Flow Controller (RS-232/485, proprietary ASCII protocol)
@@ -13,7 +15,7 @@ Python scripts for automated control of a catalysis reactor rig using:
 | Watlow EZ-Zone | COM4 | 38400 | BACnet MS/TP (RS-422) |
 | Brooks 0250 MFC | COM2 | 9600 | ASCII serial (RS-232) |
 
-You will need a **USB → RS-422** adapter for the Watlow (RS-422, not RS-232).  
+You will need a **USB → RS-422** adapter for the Watlow.  
 The Watlow uses two thermocouples:
 - **AI1** — bed thermocouple (register `040101`)
 - **AI2** — surface thermocouple (register `040401`)
@@ -22,10 +24,10 @@ The Watlow uses two thermocouples:
 
 | Channel | Gas | Input Port | Output Port |
 |---------|-----|-----------|-------------|
-| CH1 | H₂ | 01 | 02 |
-| CH2 | — | 03 | 04 |
-| CH3 | N₂ / He | 05 | 06 |
-| CH4 | NH₃ | 07 | 08 |
+| CH1 | NH₃  | 01 | 02 |
+| CH2 | N₂ | 03 | 04 |
+| CH3 | He | 05 | 06 |
+| CH4 | N₂ / He| 07 | 08 |
 
 ---
 
