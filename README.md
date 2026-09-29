@@ -284,4 +284,4 @@ Files are named with a datetime stamp, e.g. `stability_test_20260101_000000.csv`
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE) for details.
