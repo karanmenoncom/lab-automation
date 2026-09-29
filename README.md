@@ -3,7 +3,7 @@
 **Disclaimer:** This project is not affiliated with or endorsed by Watlow Electric Manufacturing Company, Harrick Scientific Products, Inc., Specac Ltd or Brooks Instrument. All product names are trademarks of their respective owners.
 
 Python scripts for automated control of a catalysis reactor rig using:
-- **Watlow EZ-Zone** temperature controller (RS-422/485 serial, BACnet MS/TP protocol)
+- **Watlow EZ-Zone PM** temperature controller (RS-422/485 serial, BACnet MS/TP protocol)
 - **Brooks Instrument 0250 Series** Mass Flow Controller (RS-232/485, proprietary ASCII protocol)
 
 ---
@@ -12,7 +12,7 @@ Python scripts for automated control of a catalysis reactor rig using:
 
 | Device | Port | Baud | Protocol |
 |--------|------|------|----------|
-| Watlow EZ-Zone | COM4 | 38400 | BACnet MS/TP (RS-422) |
+| Watlow EZ-Zone PM | COM4 | 38400 | BACnet MS/TP (RS-422) |
 | Brooks 0250 MFC | COM2 | 9600 | ASCII serial (RS-232) |
 
 You will need a **USB → RS-422** adapter for the Watlow.  
