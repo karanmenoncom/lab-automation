@@ -125,7 +125,7 @@ COM_MFC    = 'COM2'
 TARGET_TEMP    = 375
 RAMP_RATE      = 10      # °C/min
 HOLD_DURATION  = 180     # minutes
-AI2_SAFETY_LIMIT = 400   # °C — emergency shutdown threshold
+AI2_SAFETY_LIMIT = 90   # °C — emergency shutdown threshold
 ```
 
 ---
@@ -153,7 +153,7 @@ Minimal ramp + hold with no MFC control. Good for catalyst sintering, annealing,
 TARGET_TEMP     = 500    # °C
 RAMP_RATE       = 10     # °C/min
 HOLD_DURATION   = 180    # minutes
-AI2_SAFETY_LIMIT = 550   # °C
+AI2_SAFETY_LIMIT = 90   # °C
 ```
 
 Logs: `ramp_hold_YYYYMMDD_HHMMSS.csv`
